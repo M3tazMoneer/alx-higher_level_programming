@@ -1,4 +1,5 @@
 #!/usr/bin/node
+/* a script that prints a square */ 
 const size = process.argv[2];
 if (size === undefined || isNaN(parseInt(size))){
   console.log('Missing size');
